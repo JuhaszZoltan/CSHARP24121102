@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarlangCLI", "BarlangCLI\BarlangCLI.csproj", "{2466F92E-4867-49CC-B0A8-1273D03FABDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SPEC", "SPEC", "{AFAF884F-BAE8-4016-B936-B8B5EABC8441}"
+	ProjectSection(SolutionItems) = preProject
+		SPEC\FL_K24OKT.pdf = SPEC\FL_K24OKT.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2466F92E-4867-49CC-B0A8-1273D03FABDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2466F92E-4867-49CC-B0A8-1273D03FABDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2466F92E-4867-49CC-B0A8-1273D03FABDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2466F92E-4867-49CC-B0A8-1273D03FABDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,59 @@
+public class Barlang {
+    private int melyseg;
+    private int hossz;
+    private int azon;
+    private String nev;
+    private String telepules;
+    private String vedettseg;
+
+    public int getAzon() {
+        return this.azon;
+    }
+    
+    public String getNev() {
+        return this.nev;
+    }
+    
+    public int getHossz() {
+        return this.hossz;
+    }
+    
+    public void setHossz(int value) {
+        if (value >= this.hossz) {
+            this.hossz = value;
+        }
+    }
+    
+    public int getMelyseg() {
+        return this.melyseg;
+    }
+    
+    public void setMelyseg(int value) {
+        if (value >= this.melyseg) {
+            this.melyseg = value;
+        }
+    }
+    
+    public String getTelepules() {
+        return this.telepules;
+    }
+    
+    public String getVedettseg() {
+        return this.vedettseg;
+    }
+    
+    public Barlang(String sor) {
+      String[] m = sor.split(";");
+      this.azon = Integer.parseInt(m[0]);
+      this.nev = m[1];
+      this.setHossz(Integer.parseInt(m[2]));
+      this.setMelyseg(Integer.parseInt(m[3]));
+      this.telepules = m[4];
+      this.vedettseg = m[5];
+    }
+    
+    @Override
+    public String toString() {
+        return "\tAzon: " + this.azon + "\n\tNév: " + this.nev + "\n\tHossz: " + this.hossz + " m\n\tMélység: " + this.melyseg + " m\n\tTelepülés: " + this.telepules;
+    }
+}
